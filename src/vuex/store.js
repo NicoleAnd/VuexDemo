@@ -6,10 +6,10 @@ const state = {
     count: 1
 }
 const mutations = {
-    add(state) {
-        state.count++;
+    add(state, n) {
+        state.count += n;
     },
-    reduce(state) {
+    reduce(state, n) {
         state.count--;
     }
 }
